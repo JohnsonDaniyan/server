@@ -24,10 +24,14 @@
 		"strictNullChecks": true,
 		"target": "es2020",
 		"types": ["node"],
-		"lib": ["dom", "esnext"]
+		"lib": ["dom", "esnext"],
+		"outDir": "./dist"
 	},
 	"typeAcquisition": {
 		"enable": true
 	},
-	"exclude": ["**/node_modules", "**/dist", "**/types"]
+	"exclude": ["**/node_modules", "**/dist", "**/types"],
+	"scripts": {
+		"build": "tsc"
+	}
 }
