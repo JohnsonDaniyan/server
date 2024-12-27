@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "packageManager": "yarn@4.4.1",
+  "scripts": {
+    "server": "DEBUG=* nodemon index.ts",
+    "start": "node index.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.8.1",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "@types/socket.io": "^3.0.2"
+  }
+}
